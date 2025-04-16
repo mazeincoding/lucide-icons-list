@@ -14,6 +14,16 @@ Made this so you can reference all Lucide's icons to any LLM so it knows all the
 
 Grab everything in `icons.txt` or `icons.json` file.
 
+## Check for new icons
+
+Want to see what new icons Lucide's added without updating your files? Just run:
+
+```bash
+python check_new_icons.py
+```
+
+It'll compare the icons list with all Lucide's icons and tell you if there's anything new.
+
 ## Updating the icons
 
 Want to update the icon list yourself? You'll need:
@@ -42,3 +52,5 @@ Want to update the icon list yourself? You'll need:
    ```bash
    python extract_icons.py
    ```
+
+This'll grab all the latest icons and update both files.
